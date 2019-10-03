@@ -1,0 +1,404 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #5046ac;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #5046ac, #e4fb60);
+    border-radius: 10px;
+    height: 20px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 6px;
+    background: #5046ac;
+    z-index: 1200;
+    position: fixed;
+}
+
+.progress-bar {
+    height: 3px;
+    background: #e4fb60;
+    width: 0%;
+    z-index: 1000;
+    position: fixed;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #efefef;
+}
+
+.img {
+    background-image: linear-gradient(to bottom, rgba(80, 70, 172, 0.3), rgba(0, 0, 0, 0.3)), url(../img/achievement-agreement-body-language-1179804.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.logoa {
+    height: 100px;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    top: 60%;
+    margin-top: -100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 53px;
+    letter-spacing: 10px;
+}
+
+.services #p1 {
+    font-size: 45px;
+    text-align: center;
+    color: #050517;
+    padding: 0px 0px;
+    margin-top: 2em
+}
+
+.services #p2 {
+    margin: 5px;
+    text-align: center;
+    padding: 0px 0px;
+    color: #050517;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.card-container {
+    background-color: transparent;
+    perspective: 1000px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 18em;
+    height: 20em;
+    margin-top: 10%;
+}
+
+.inner-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+#hr {
+    background-color: #5046ac;
+    height: 3px;
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+    outline: none;
+}
+
+#p3 {
+    text-align: center;
+    padding-top: 20px;
+    color: #5046ac;
+    transform: translatez(80px);
+    font-size: 30px;
+}
+
+#p4 {
+    font-size: 16px;
+    text-align: center;
+    color: #050517;
+    padding: 8px;
+    font-weight: 200;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+#moreButton {
+    display: flex;
+    background-color: #fff;
+    color: #5046ac;
+    justify-content: space-around;
+    margin-top: 25px;
+    width: 30%;
+    height: 35px;
+    font-size: 18px;
+    border: 1px #5046ac solid;
+    border-radius: 40px;
+    cursor: default;
+    transition: 0.5s ease;
+    transform: translate3d(0px, 10px, 30px);
+}
+
+#backButton:hover {
+    background-color: #5046ac;
+    color: white;
+}
+
+#moreButton:hover {
+    background-color: #5046ac;
+    color: #e4eb60;
+}
+
+#backButton {
+    all: unset;
+    transform: translateZ(100px);
+    left: 5%;
+    height: 3em;
+    width: 3em;
+    background-color: #fff;
+    border: 1px #5046ac solid;
+    border-radius: 5px;
+    color: #5046ac;
+}
+
+.back,
+.front {
+    position: absolute;
+    background-color: white;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card-container:hover .front {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-container:hover #moreButton {
+    transform: translate3d(0px, 0px, 30px);
+    opacity: 1;
+}
+
+.back {
+    transform: rotateY(180deg);
+    border: 1px #5046ac solid;
+    border-top: 7px #5046ac solid;
+}
+
+.sec3 {
+    background-color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 328px;
+    border-radius: 20px;
+    box-shadow: 3px 6px 8px #aaa;
+}
+
+.panel-heading {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #5046ac;
+    color: white;
+}
+
+.c1 {
+    color: #5046ac;
+}
+/*---------------------FOOTER------------------*/
+footer {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    color: #5e5b61;
+    font-size: 15px;
+
+}
+
+.name {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.cont {
+    color: white;
+}
+
+footer ul {
+    all: unset;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 4px;
+}
+
+footer ul li a {
+    color: #5e5b61;
+    text-decoration: none;
+
+
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.contact {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.add {
+    text-align: left;
+    margin-left: 70px;
+    padding-top: 10px
+}
+
+#link1 {
+    text-align: left;
+    padding-left: 150px;
+}
+
+#link2 {
+    text-align: left;
+    padding-left: 80px
+}
+
+@media only screen and (max-width: 760px) {
+    .img {
+        background-image: linear-gradient(to bottom, rgba(80, 70, 172, 0.3), rgba(0, 0, 0, 0.3)),url("../img/achievement-agreement-body-language-phone11.jpg");
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
+    .logoa {
+        height: 120px;
+        width: 100%;
+        background-position: center;
+        position: absolute;
+        top: 60%;
+        margin-top: -100px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .logo-text {
+        color: white;
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+
+    .services {
+        margin-top: 10%;
+    }
+
+    .services #p1 {
+        font-size: 30px;
+        text-align: center;
+        color: #050517;
+        padding: 0px 0px;
+        font-weight: bold;
+    }
+
+    .services #p2 {
+        margin: 5px;
+        text-align: center;
+        padding: 0px 5px;
+        color: #050517;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .card-container {
+        background-color: transparent;
+        perspective: 1000px;
+        cursor: pointer;
+        border-radius: 10px;
+        width: 16em;
+        height: 18em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+#p3 {
+    text-align: center;
+    padding-top: 15px;
+    color: #5046ac;
+    transform: translatez(80px);
+    font-size: 26px;
+}
+
+    .col-xs-12 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    footer {
+        background-color: black;
+        font-family: 'Montserrat', sans-serif;
+        padding: 15px;
+        color: #5e5b61;
+        font-size: 15px;
+
+    }
+
+    .name {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+ .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+    .contact p {
+        padding-top: 0px;
+    }
+    .add {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .add p{
+        padding: 0px;
+    }
+    h5 span{
+        text-align: center;
+        margin-left: 20%;
+    }
+    #link1{
+        display: flex;
+       text-align: left;
+    }
+    #link2{
+        text-align:left;
+        margin-left: 70px;
+    }
+
+}

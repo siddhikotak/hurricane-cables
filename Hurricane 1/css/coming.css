@@ -1,0 +1,360 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #5046ac;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #5046ac, #e4fb60);
+    border-radius: 10px;
+    height: 20px;
+}
+
+.progress-con {
+    width: 100%;
+    height: 6px;
+    background: #5046ac;
+    z-index: 1200;
+    position: fixed;
+}
+
+.prog {
+    height: 3px;
+    background: #e4fb60;
+    width: 0%;
+    z-index: 1000;
+    position: fixed;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background-color: #efefef;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-----------------------PARALLAX IMAGE--------------------*/
+.img {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/IPTV-1.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.logoa {
+    height: 150px;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    margin-top: -60vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.logo-text {
+    color: white;
+    font-size: 65px;
+    letter-spacing: 15px;
+}
+/*--------------------CONTAINER-----------------*/
+.services #p1 {
+    font-size: 45px;
+    font-variant: small-caps;
+    text-align: center;
+    color: #050517;
+    padding: 0px 0px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.services p {
+    margin: 5px;
+    text-align: center;
+    padding: 0px 0px;
+    color: #050517;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.about{
+    color: #050517;
+    margin-top: 5%; 
+}
+#para{
+    text-align: justify;
+     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.12), 0 4px 7px rgba(0, 0, 0, 0.24);
+    padding: 10px;
+}
+.addt{
+    padding: 15px;
+    margin-top: 10%;
+}
+.progress{
+    margin: 10px;
+}
+h4{
+    padding: 10px;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    background-color:transparent;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
+    border-radius: 15px;
+}
+.image:hover{
+    transition: 0.5s ease-in-out;
+    border-radius: 15px;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 6px 6px rgba(0, 0, 0, 0.3); 
+    background-color: white;
+}
+.material-icons{
+    font-size:80px;
+    color: #5046ac;
+    margin-top: 5%;
+}
+.icon {
+    display: flex;
+    justify-content: space-around;
+}
+#p{
+    height: 100px;
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+figcaption{
+   font-size: 22px;
+    background-color: #aaa;
+    color:#5046ac;
+    
+}
+ figcaption{
+    display: block;
+    text-align: center;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    background-color:transparent;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
+    border-radius: 15px;
+    transform-style: preserve-3d;
+    transition:0.8s ease;
+}
+.image:hover{
+    transition: 0.8s ease;
+    border-radius: 15px;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 6px 6px rgba(0, 0, 0, 0.3); 
+    background-color: white;
+}
+#img{
+    width:300px;
+    height: 300px;
+    z-index: 10;
+    transition: 0.5s ease;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+
+}
+.image:hover #img{
+    transform: scale(1.04);
+    transition: 0.5s ease;
+         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 6px 6px rgba(0, 0, 0, 0.3); 
+
+}
+
+
+
+
+
+/*---------------------FOOTER------------------*/
+footer {
+    margin-top: 5%;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    color: #5e5b61;
+    font-size: 15px;
+
+}
+
+.name {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.cont {
+    color: white;
+}
+
+footer ul {
+    all: unset;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 4px;
+}
+
+footer ul li a {
+    color: #5e5b61;
+    text-decoration: none;
+
+
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.contact {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.add {
+    text-align: left;
+    margin-left: 70px;
+    padding-top: 10px
+}
+
+#link1 {
+    text-align: left;
+    padding-left: 150px;
+}
+
+#link2 {
+    text-align: left;
+    padding-left: 80px
+}
+
+
+@media (max-width: 760px) {
+    .img {
+        height: 100vh;
+    }
+
+    .logo-text {
+        color: white;
+        font-size: 35px;
+        letter-spacing: 10px;
+    }
+
+    .services {
+        margin-top: 10%;
+    }
+
+    .services #p1 {
+        font-size: 30px;
+        text-align: center;
+        color: #050517;
+        padding: 0px 0px;
+        font-weight: bold;
+    }
+
+    .services #p2 {
+        margin: 5px;
+        text-align: center;
+        padding: 0px 5px;
+        color: #050517;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .services1 #p1 {
+        margin-top: 3%;
+        font-size: 30px;
+        font-variant: small-caps;
+        text-align: center;
+        color: white;
+        padding: 0px 0px;
+        font-weight: bold;
+    }
+
+    .services1 p {
+        margin: 5px;
+        text-align: center;
+        padding: 0px 0px;
+        color: white;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .col-xs-12{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .image{
+        margin-bottom: 5%;
+    }
+    footer {
+        background-color: black;
+        font-family: 'Montserrat', sans-serif;
+        padding: 15px;
+        color: #5e5b61;
+        font-size: 15px;
+
+    }
+
+    .name {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+    .contact p {
+        padding-top: 0px;
+    }
+    .add {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .add p{
+        padding: 0px;
+    }
+    h5 span{
+        text-align: center;
+        margin-left: 20%;
+    }
+    #link1{
+        display: flex;
+       text-align: left;
+    }
+    #link2{
+        text-align:left;
+        margin-left: 70px;
+    }
+    }
+
+}
